@@ -323,7 +323,8 @@ public class Timer {
         user.setTotalFocusTime(userDAO.addToTotalTime(user.getId(), (long)Timer_Duration));
 
         // Unblock URLS.
-        BlockedController.resetBlockedList();
+        // TODO: very dangerous to target files in system32.
+        // BlockedController.resetBlockedList();
     }
 
     /**

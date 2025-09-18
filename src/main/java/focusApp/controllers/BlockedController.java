@@ -411,6 +411,11 @@ public class BlockedController implements Initializable {
     public static void blockCurrentUrls() {
         List<String> urlsToBlock = new ArrayList<>();
 
+
+        //TODO: Null Check to stop Null point exception.
+
+        if (blockedItems == null) return;
+
         for (BlockedItem item : blockedItems) {
             if (item.getClass() == WebsiteItem.class) {
                 System.out.println(item.getName() + " is website");
