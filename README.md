@@ -107,4 +107,4 @@ private Color getBestTextColour(Color CurrentColour){
 - Assisted with testing and debugging to ensure reliable timer behavior and dynamic style loading.
 
 ### Notes:
-As of the current build, the website/application blocking feature is not functioning as intended as well as the preset functionality. However, all other implemented features including timer logic, button state management, and dynamic UI/color customization are fully working as intended and demonstrate the implemented functionality.
+As of the current build, the website/application blocking feature is not functioning as intended as well as the preset functionality. However, all other implemented features including timer logic, button state management, and dynamic UI/colour customisation are fully working as intended and demonstrate the implemented functionality.
